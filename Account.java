@@ -28,7 +28,7 @@ public class Account {
             transactionHistory.add("Withdrawn : " + balance);
             System.out.println("Money withdrawn");
         }else{
-            System.out.println("Money couldn't withdraw");
+            System.out.println("Insufficient balance");
         }
     }
 
